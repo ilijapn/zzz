@@ -1,0 +1,28 @@
+body {
+  background: url(../img/background.jpg) no-repeat fixed;
+  background-position: center;
+  padding-top: 15vh;
+  font-family: 'Montserrat', sans-serif;
+  color: #414042;
+  max-height: 100vh; }
+
+a, a:active, a:hover, a:visited {
+  color: #414042;
+  text-decoration: none; }
+
+img {
+  max-width: 40vh; }
+
+@media (max-width: 768px) {
+  img {
+    max-width: 30vh; }
+  body {
+    padding-top: 5vh; }
+  h1 {
+    font-size: 1.800rem; }
+  h2 {
+    font-size: 1.400rem; }
+  .mobile {
+    max-height: 8vh; }
+    .mobile p {
+      font-size: 0.7rem; } }
