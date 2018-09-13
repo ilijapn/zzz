@@ -15,7 +15,7 @@ img {
 
 @media (max-width: 768px) {
   body {
-    background: url(../img/background-mobile.jpg);
+    background: url(../img/background-mobile.jpg) no-repeat;
     background-position: center;
     background-size: cover; }
   img {
